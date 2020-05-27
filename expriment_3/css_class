@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.intro
+{
+background-color:green;
+}
+</style>
+</head>
+
+<body>
+<h1>Chunshan Li's web</h1>
+
+<div class="intro">
+<p>name:Chunshan Li</p>
+<p>school:NJUST</p>
+</div>
+
+<p>I love my school.</p>
+
+</body>
+</html>
