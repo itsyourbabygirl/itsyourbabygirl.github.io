@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+#panel,#flip
+{
+	padding:5px;
+	text-align:center;
+	background-color:#e5eecc;
+	border:solid 1px #c3c3c3;
+}
+#panel
+{
+	padding:50px;
+	display:none;
+}
+</style>
+<title>expriment_5/jquery_3</title>
+</head>
+<body>
+ 
+<div id="flip">点击</div>
+<div id="panel">欢迎来到李春姗的个人主页</div>
+<p>姓名：李春姗</p>
+<p>学校：南京理工大学</p>
+<p>学院：经济管理学院</p>
+<p>专业：信息管理与信息系统</p>
+
+</body>
+</html>
